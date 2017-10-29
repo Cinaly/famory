@@ -1,0 +1,19 @@
+#menu{
+    width: 256px;
+    text-align: center;
+    padding:40px 20px ;
+}
+.menu-family{
+    width:100%;
+}
+.menu-family>.top{
+    padding:40px 20px;
+}
+.menu-family>.top>img{
+    width:100px;
+}
+
+.menu-family .list>li{
+    background: url(../img/arrow.png) no-repeat right;
+    text-align: left;
+}
