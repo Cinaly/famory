@@ -1,0 +1,43 @@
+.header{
+    min-height: 50px;
+    padding: 16px 0 10px;
+}
+
+.header h3{
+    color: #9D1919;
+    display: inline-block;
+    margin:auto;
+    margin-left: 50%;
+    position: relative;
+    left: -75px;
+}
+.header>.d1>img,.header>.d2 img{
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
+.header>.d1>img{
+    position: relative;
+    left: 20px;
+}
+.header>.d1>img,.header>.d2>.row{
+    margin:0;
+}
+.header>.d2>.row>:first-child{
+    padding:0 0 0 10px;
+}
+.header>.d1>img,.header>.d2>.row>:last-child{
+    text-align: right;
+}
+.header>.d2{
+    padding: 10px 24px 0;
+}
+.header>.d2>div{
+    border-bottom:1px solid #f1f1f1;
+    padding-bottom: 5px;
+}
+.header .input-search{
+   width: 100%;
+    border: none;
+    outline: none;
+}
