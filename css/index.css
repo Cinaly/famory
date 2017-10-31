@@ -4,7 +4,16 @@
 }
 .banner{
     width:100%;
-
+    overflow: hidden;
+}
+.banner ul{
+    width: 300%;
+    display: flex;
+    position: relative;
+    left: -22%;
+}
+.banner>div{
+    width:150%;
 }
 #header+div{
     padding: 0;
@@ -17,8 +26,9 @@
     text-align:center;
 }
 .banner>img{
-    position: absolute;
-    clip: rect(0 10% 0 0);
+    width: 1000px;
+    //position: absolute;
+   // clip: rect(auto 400px auto 1000px);
 }
 #main>.banner+a{
     color:#555;
