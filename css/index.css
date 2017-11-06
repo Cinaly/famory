@@ -10,7 +10,7 @@
     width: 300%;
     display: flex;
     position: relative;
-    left: -22%;
+    left: -17%;
 }
 .banner>div{
     width:150%;
@@ -26,9 +26,7 @@
     text-align:center;
 }
 .banner>img{
-    width: 1000px;
-    //position: absolute;
-   // clip: rect(auto 400px auto 1000px);
+    width: 100%;
 }
 #main>.banner+a{
     color:#555;
@@ -46,6 +44,7 @@
 #main a{
     text-decoration: none;
 }
+
 @media (max-width: 767px) {
     .list-wrap>li{
         display: block;

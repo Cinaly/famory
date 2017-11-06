@@ -7,6 +7,9 @@
         dataType:"text"
     }).then(html=>{
         $("#header").html(html);
+        $("#search").click(function () {
+            location.href="product_list.html";
+        });
     });
 })();
 
